@@ -1,0 +1,8 @@
+applications:
+- name: example_securetxt
+  disk_quota: 30M
+  instances: 1
+  memory: 128M
+  ## Optional to map route inside manifest or using the command.
+  #routes:
+  #  - route: example.com/.well-known
